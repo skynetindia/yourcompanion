@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_10">
+
+        <ImageView
+            android:id="@+id/vdo_preview"
+            android:layout_width="@dimen/width_90"
+            android:layout_height="@dimen/height_60"
+            android:src="@drawable/img_video_placeholder"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/margin_10">
+
+            <TextView
+                android:id="@+id/txt_video_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="text Here"
+                style="@style/textview_video_heading"/>
+
+            <TextView
+                android:id="@+id/txt_video_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="text Here"
+                style="@style/textview_video_detail"
+                android:layout_marginTop="@dimen/margin_3"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c1c1c1"/>
+
+</LinearLayout>

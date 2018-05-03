@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "34555261101",
+    "firebase_url": "https://yourcompanion-181313.firebaseio.com",
+    "project_id": "yourcompanion-181313",
+    "storage_bucket": "yourcompanion-181313.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34555261101:android:5e5753b146fefe68",
+        "android_client_info": {
+          "package_name": "pkg.android.skynet.yourcompanion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34555261101-915m66669prrat58vquj0if5tc9jc9av.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc8IyX2JFoYvCnQoSGEqT5DnPe8nDTYfc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

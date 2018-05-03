@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_root">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_general"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50"
+        android:background="#707070">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/imageview_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:text="@string/txt_add_new_friends"
+            style="@style/textview_title"/>
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edt_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_header"
+        style="@style/edttext_searchbox"
+        android:layout_margin="@dimen/margin_10"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_action_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_60"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/txt_add_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/txt_add_selected"
+            style="@style/textview_add_friend"
+            android:drawableLeft="@drawable/ic_add_friend_icon_white"
+            android:layout_centerInParent="true">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_add_new_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_search"
+        android:drawableLeft="@drawable/ic_add_red"
+        android:text="@string/txt_add_new_contact"
+        style="@style/textview_add_new_contact"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margin_10"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@id/txt_add_new_contact"
+        android:layout_above="@id/rl_action_layout"
+        android:layout_marginTop="@dimen/margin_5">
+
+        <libs.indexablelistview.IndexableListView
+            android:id="@+id/rec_contacts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:overScrollMode="never"
+            android:paddingEnd="5dp"
+            android:scrollbars="none"/>
+
+        <ScrollView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/bg_searcbox"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/ll_side_index"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"/>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

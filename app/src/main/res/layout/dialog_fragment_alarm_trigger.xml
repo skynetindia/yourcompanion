@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FF0000">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_alram_trigger_bg"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/textview_alaram_activated_title"
+        android:text="@string/txt_alarm_trigger_in"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_below="@id/txt_title">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <pkg.android.skynet.yourcompanion.custom.AvenirNextTextView
+                android:id="@+id/txt_trigger_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/textview_alaram_trigger_timer"
+                android:text="0"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/textview_alaram_activated_title"
+                android:text="@string/txt_seconds"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_50"
+            android:background="#DFDFDF"
+            android:layout_marginTop="@dimen/margin_20">
+
+            <TextView
+                android:id="@+id/txt_dismiss"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/textview_popup_button"
+                android:text="@string/txt_DISMISS"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

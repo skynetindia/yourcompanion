@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:clickable="true">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_menu"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_55"
+        android:background="#C11E39">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/txt_menu"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@android:color/white"
+            android:paddingLeft="@dimen/padding_20"
+            android:textSize="@dimen/text_16"/>
+
+        <ImageView
+            android:id="@+id/img_close_drawer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_close"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_marginEnd="@dimen/margin_10"
+            android:layout_centerVertical="true"
+            style="@style/imageview"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_logo_splash"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/margin_20"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_header"
+        android:layout_above="@+id/img_logo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_home"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_55"
+                style="@style/textview_drawer"
+                android:text="@string/txt_home"
+                android:drawableLeft="@drawable/ic_home"
+                android:drawableStart="@drawable/ic_home"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6b6b6b"/>
+
+            <TextView
+                android:id="@+id/txt_my_friends"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_55"
+                style="@style/textview_drawer"
+                android:text="@string/txt_my_friends"
+                android:drawableLeft="@drawable/ic_friends"
+                android:drawableStart="@drawable/ic_friends"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6b6b6b"/>
+
+            <TextView
+                android:id="@+id/txt_setting"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_55"
+                style="@style/textview_drawer"
+                android:text="@string/txt_settings"
+                android:drawableLeft="@drawable/ic_setting"
+                android:drawableStart="@drawable/ic_setting"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6b6b6b"/>
+
+            <TextView
+                android:id="@+id/txt_history"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_55"
+                style="@style/textview_drawer"
+                android:text="@string/txt_history"
+                android:drawableLeft="@drawable/ic_setting"
+                android:drawableStart="@drawable/ic_setting"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6b6b6b"/>
+
+            <TextView
+                android:id="@+id/txt_helpline_num"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_55"
+                style="@style/textview_drawer"
+                android:text="@string/txt_helpline_num"
+                android:drawableLeft="@drawable/ic_help_line_numbers"
+                android:drawableStart="@drawable/ic_help_line_numbers"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6b6b6b"/>
+
+            <TextView
+                android:id="@+id/txt_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_55"
+                style="@style/textview_drawer"
+                android:text="@string/txt_feedback"
+                android:drawableLeft="@drawable/ic_feedback_icon"
+                android:drawableStart="@drawable/ic_feedback_icon"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6b6b6b"/>
+
+            <TextView
+                android:id="@+id/txt_logout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_55"
+                style="@style/textview_drawer"
+                android:text="@string/txt_logout"
+                android:drawableLeft="@drawable/ic_logout"
+                android:drawableStart="@drawable/ic_logout"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#6b6b6b"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,376 @@
+<resources>
+    <string name="app_name">YourCompanion</string>
+
+    <string name="facebook_app_id">436250486771319</string>
+    <string name="fb_login_protocol_scheme">fb436250486771319</string>
+
+    <string name="txt_please_confirm">Please Confirm</string>
+    <string name="txt_sorry">Sorry</string>
+    <string name="txt_i_am_sure">Yes, i\'m sure</string>
+    <string name="txt_cancel">Cancel</string>
+
+    <!-- Errors -->
+    <string name="err_enter_email">Please enter Email</string>
+    <string name="err_enter_valid_email">Please enter valid Email</string>
+    <string name="err_enter_fullname">Please enter Fullname</string>
+    <string name="err_enter_phone">Please enter Phone</string>
+    <string name="err_enter_valid_phone">Please enter valid Phone</string>
+    <string name="err_enter_phone_code">Please enter Phone Code</string>
+    <string name="err_enter_password">Please enter Password</string>
+    <string name="err_enter_confirm_password">Please enter Confirm Password</string>
+    <string name="err_diff_password">Password and confirm password does not match</string>
+    <string name="err_select_contact">Please select atleast one contact to send a request.</string>
+    <string name="err_contain_countrycode">You cannot send friend request to the number which cannot contain country code.</string>
+    <string name="err_select_rate">Please select your rate before submit.</string>
+    <string name="err_enter_thoughts">Please write your thoughts before submit.</string>
+    <string name="err_add_friends">Please add friends to use this feature.</string>
+    <string name="err_select_friends">Please select atleast one friends to share your locaiton.</string>
+
+
+    <!-- Login -->
+    <string name="hint_email">Your Email</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_password">Password</string>
+    <string name="text_login">Login</string>
+    <string name="txt_forget_password"><u>FORGET PASSWORD?</u></string>
+    <string name="txt_signup"><u>SIGN UP</u></string>
+    <string name="txt_or">OR</string>
+    <string name="txt_sign_in_with">SIGN IN WITH</string>
+
+    <!-- Forget Password -->
+    <string name="txt_reset_password">RESET PASSWORD</string>
+    <string name="txt_sign_in"><u>SIGN IN</u></string>
+
+    <!-- Signup -->
+    <string name="hint_fullname">Full Name</string>
+    <string name="hint_phone">Your phone number</string>
+    <string name="txt_male">Male</string>
+    <string name="txt_female">Female</string>
+    <string name="txt_other">Other</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="txt_continue">CONTINUE</string>
+    
+    <!-- Drawer -->
+    <string name="txt_menu">MENU</string>
+    <string name="txt_settings">Setings</string>
+    <string name="txt_helpline_num">Help Line Numbers</string>
+    <string name="txt_feedback">Feedback</string>
+    <string name="txt_history">History</string>
+    <string name="txt_logout">Logout</string>
+    <string name="msg_logout">Are you sure you want to logout?</string>
+
+    <!-- Setting -->
+    <string name="txt_logout_caps">LOGOUT</string>
+    <string name="txt_help_message">Help Message</string>
+    <string name="txt_emergency">Emergency</string>
+    <string name="txt_alarm_delay">Alarm Delay</string>
+    <string name="txt_trigger_power_btn">Trigger on power button double tap</string>
+    <string name="hint_help"><i>I am in trouble, Please help me</i></string>
+    <string name="txt_save"><i>SAVE</i></string>
+
+    <!-- Add New Friends -->
+    <string name="txt_add_new_friends">Add New Friends</string>
+    <string name="txt_add_selected">Add Selected</string>
+    <string name="hint_search_frineds">Search Friends</string>
+    <string name="txt_add_new_contact">Add New Contact</string>
+
+    <!-- Main Fragment -->
+    <string name="txt_following_you">Following You..</string>
+    <string name="txt_timer">Timer</string>
+    <string name="txt_follow_me">Follow Me</string>
+    <string name="txt_phoney">Phoney</string>
+    <string name="txt_current_location">Current\nLocation</string>
+    <string name="msg_location_disable">Your Location seems to be disabled, do you want to enable it?</string>
+    <string name="title_location_seting">Enable Location</string>
+    <string name="title_stop_timer">Stop Timer</string>
+    <string name="msg_stop_timer">Are you sure that you want to cancel the timer?</string>
+    <string name="txt_HELP">HELP</string>
+    <string name="txt_turn_off">TURN\nOFF</string>
+    <string name="txt_VIEW_ON_MAP">VIEW ON MAP</string>
+    <string name="msg_shared_location">shared a location with you.</string>
+    <string name="title_stop_follow_me">Stop Follow Me?</string>
+    <string name="msg_stop_follow_me">Are you sure you want to stop Follow Me?</string>
+    <string name="title_follow_me_live_now">Follow me live now?</string>
+    <string name="msg_follow_me_live_now">wants you to follow him/her to destination safety now.</string>
+    <string name="msg_arrived_safely">has arrived at their destination safely. Thanks for being their friend.</string>
+    <string name="msg_triggered_alarm">triggered the Companion Alarm and needs your help.</string>
+    
+    <!-- Phoney Fragment -->
+    <string name="txt_start_fake_call">Start a Fake Call</string>
+    <string name="txt_from">From:</string>
+    <string name="txt_30sec">in 30 sec</string>
+    <string name="txt_5min">in 5 min</string>
+    <string name="txt_30min">in 30 min</string>
+    <string name="txt_1hour">in 1 hour</string>
+    <string name="txt_call_now">CALL\nNOW</string>
+    <string name="msg_call_set">Your call has been set in</string>
+
+
+    <!-- Incoming Call -->
+    <string name="txt_incoming_call">Incoming Call…</string>
+    <string name="txt_call_from"><i>Daddy</i></string>
+    <string name="txt_call">+1 202 555 0125</string>
+    <string name="txt_decline">Decline</string>
+    <string name="txt_accept">Accept</string>
+    <string name="txt_message">Message</string>
+    <string name="txt_silent">Silent</string>
+
+    <!-- My Friends -->
+    <string name="txt_home">Home</string>
+    <string name="txt_my_friends">My Friends</string>
+    <string name="txt_add_friend">Add New Friends</string>
+    <string name="msg_remove_friend">Are you sure you want to remove this friend?</string>
+    <string name="txt_friend_requests">New Requests</string>
+    <string name="txt_request_sent">Invited Friends</string>
+    <string name="msg_decline_request">Are you sure you want to decline this request?</string>
+    <string name="txt_primary_contact">Set Primary Contact</string>
+    <string name="txt_phone_call">Call</string>
+
+
+    <!-- Dialog Select Friends -->
+    <string name="txt_select_friends">Current Location - Select Friends</string>
+    <string name="txt_select_follow_me_friends">Follow Me - Select Friends</string>
+    <string name="txt_SHARE_LOCATION">SHARE LOCATION</string>
+    <string name="txt_share_location">Share Location</string>
+    <string name="txt_FOLLOW_ME">FOLLOW ME</string>
+    <string name="txt_CANCEL">CANCEL</string>
+    <string name="msg_share_location_success">You have successfully shared your Location</string>
+
+
+    <!-- Dialog save Mo. -->
+    <string name="txt_LOGIN">LOGIN</string>
+    <string name="txt_continue_login">Please enter your mobile no. to continue Login.</string>
+    
+    <!--Helpline-->
+    <string name="txt_helpline">Helpline</string>
+
+    <!--Feedback-->
+    <string name="txt_think_out_app">What do you think of our app?<font color="#FF0000">*</font></string>
+    <string name="txt_share_with_us">What would you like to share with us?<font color="#FF0000">*</font></string>
+    <string name="hint_your_thoughts"><i>Your Thoughts</i></string>
+    <string name="txt_submit"><i>Submit</i></string>
+
+    <!-- Alaram activated dialog fragment -->
+    <string name="txt_alaram_activated">Alarm Activated</string>
+    <string name="txt_sms_to_friend">SMS sent to friends</string>
+    <string name="txt_video_recording">Video Recording Started</string>
+    <string name="txt_sending_gps_track">Sending GPS Track</string>
+    <string name="txt_calling_primary_contact">Calling Primary Contact</string>
+    <string name="txt_MAP">MAP</string>
+    <string name="txt_DISMISS">DISMISS</string>
+    <string name="txt_TURN_OFF">TURN OFF</string>
+    <string name="txt_alarm_trigger_in">The Alarm will Trigger in</string>
+    <string name="txt_seconds">Seconds</string>
+
+
+    <!-- All the list of country code and phone code -->
+    <string-array name="CountryCodes" >
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>672,AQ</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>1,CA</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>1,PR</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array>
+
+</resources>

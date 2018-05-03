@@ -1,0 +1,291 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="edittext_login">
+        <item name="android:textColor">#1d1d26</item>
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:drawablePadding">@dimen/padding_10</item>
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">@dimen/height_45</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+
+    <style name="button_login">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_15</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">@dimen/height_60</item>
+        <item name="android:background">#C11E39</item>
+    </style>
+
+    <style name="textview_forget_signup">
+        <item name="android:textColor">#C11E39</item>
+        <item name="android:textSize">@dimen/text_14</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">@dimen/height_30</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="imageview">
+        <item name="android:padding">@dimen/padding_5</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+    
+    <style name="textview_drawer">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/text_15</item>
+        <item name="android:paddingLeft">@dimen/padding_20</item>
+        <item name="android:drawablePadding">@dimen/padding_10</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="textview_setting">
+        <item name="android:textColor">#1d1d26</item>
+        <item name="android:textSize">@dimen/text_14</item>
+        <item name="android:paddingLeft">@dimen/padding_15</item>
+        <item name="android:paddingRight">@dimen/padding_5</item>
+    </style>
+
+    <style name="textview_title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_18</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textview_popup_title">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding_10</item>
+    </style>
+
+    <style name="textview_popup_message">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding_10</item>
+        <item name="android:minHeight">@dimen/height_60</item>
+    </style>
+
+    <style name="textview_popup_button">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/text_17</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+        <item name="android:paddingLeft">@dimen/padding_20</item>
+        <item name="android:paddingRight">@dimen/padding_20</item>
+        <item name="android:minHeight">@dimen/height_50</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="imageview_back">
+        <item name="android:padding">@dimen/padding_15</item>
+        <item name="android:layout_marginLeft">@dimen/margin_5</item>
+        <item name="android:src">@drawable/ic_back</item>
+    </style>
+
+    <style name="textview_bottom_enabled">
+        <item name="android:textSize">@dimen/text_12</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:drawablePadding">@dimen/padding_10</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textview_fakecall_time">
+        <item name="android:textColor">#c11E39</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:drawableLeft">@drawable/ic_phoney_black</item>
+        <item name="android:drawablePadding">@dimen/padding_10</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textview_panic">
+        <item name="android:textSize">@dimen/text_24</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingExtra">-10dp</item>
+    </style>
+
+    <style name="textview_call_from">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_35</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textview_call_number">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_12</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">@dimen/padding_10</item>
+    </style>
+
+    <style name="chronometer">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_27</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="textview_contact_name">
+        <item name="android:textColor">#0F0F0F</item>
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="textview_contact_number">
+        <item name="android:textColor">#929292</item>
+        <item name="android:textSize">@dimen/text_13</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="textview_add_friend">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_15</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:drawablePadding">@dimen/padding_10</item>
+        <item name="android:drawableLeft">@drawable/ic_add_friend_icon_white</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+    </style>
+
+    <style name="textview_helpline_number">
+        <item name="android:textColor">#c11e39</item>
+        <item name="android:textSize">@dimen/text_45</item>
+    </style>
+
+    <style name="textview_helpline_call">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">@dimen/text_18</item>
+    </style>
+
+    <style name="textview_helpline_name">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">@dimen/text_18</item>
+        <item name="android:background">#707070</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textview_feedback">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+
+    <style name="edttext_feedback">
+        <item name="android:textSize">@dimen/text_15</item>
+        <item name="android:textColorHint">#b4b4b4</item>
+        <item name="android:hint">@string/hint_your_thoughts</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:gravity">top</item>
+        <item name="android:padding">@dimen/padding_5</item>
+    </style>
+
+    <style name="edttext_searchbox">
+        <item name="android:textSize">@dimen/text_15</item>
+        <item name="android:hint">@string/hint_search_frineds</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:background">@drawable/bg_searcbox</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">@dimen/height_45</item>
+        <item name="android:paddingLeft">@dimen/padding_10</item>
+        <item name="android:drawableRight">@drawable/ic_search_red</item>
+        <item name="android:paddingRight">@dimen/padding_10</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="textview_alaram_activated_title">
+        <item name="android:textSize">@dimen/text_25</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:minHeight">@dimen/height_50</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="textview_alaram_activated_text">
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:minHeight">@dimen/height_50</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:drawableLeft">@drawable/ic_checked</item>
+        <item name="android:drawablePadding">@dimen/padding_15</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="textview_alaram_trigger_timer">
+        <item name="android:textSize">@dimen/text_101</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textview_friend_request_heading">
+        <item name="android:textSize">@dimen/text_15</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingLeft">@dimen/padding_15</item>
+    </style>
+
+    <style name="textview_title_following">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textview_detail_following">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_15</item>
+    </style>
+
+    <style name="textview_no_friends">
+        <item name="android:textColor">#696969</item>
+        <item name="android:textSize">@dimen/text_13</item>
+        <item name="android:paddingLeft">@dimen/padding_25</item>
+        <item name="android:paddingTop">@dimen/padding_5</item>
+        <item name="android:paddingBottom">@dimen/padding_5</item>
+        <item name="android:paddingRight">@dimen/padding_10</item>
+    </style>
+
+    <style name="textview_video_heading">
+        <item name="android:textColor">#454545</item>
+        <item name="android:textSize">@dimen/text_15</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textview_video_detail">
+        <item name="android:textColor">#8f8f8f</item>
+        <item name="android:textSize">@dimen/text_13</item>
+    </style>
+
+    <style name="textview_add_new_contact">
+        <item name="android:textSize">@dimen/text_14</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:drawablePadding">@dimen/padding_10</item>
+        <item name="android:minHeight">@dimen/height_30</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>
